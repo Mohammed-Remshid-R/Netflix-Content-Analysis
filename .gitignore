@@ -14,3 +14,5 @@ __pycache__/
 *.log
 
 .DS_Store
+frontend/public/netflix_film_reel.png
+frontend/public/stranger_things.png
