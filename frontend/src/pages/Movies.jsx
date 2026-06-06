@@ -4,7 +4,10 @@ import { Search, Film, Star, Globe, Clock, ChevronLeft, LayoutGrid, List, Downlo
 import DetailsPanel from '../components/DetailsPanel';
 import MoviePoster from '../components/MoviePoster';
 
-const API_BASE = 'http://127.0.0.1:5000/api';
+const API_BASE =
+  window.location.hostname === "localhost"
+    ? "http://127.0.0.1:5000/api"
+    : "/api";
 
 const getAgeRating = (rating) => {
   if (rating === 'R' || rating === 'TV-MA') return '18';
