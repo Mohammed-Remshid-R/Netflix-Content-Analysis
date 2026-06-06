@@ -37,7 +37,7 @@ function RightSidebar() {
             title="Click to view details"
           >
             <img 
-              src="/stranger_things.png" 
+              src="https://media.githubusercontent.com/media/Mohammed-Remshid-R/Netflix-Content-Analysis/main/frontend/public/stranger_things.png"
               alt="Stranger Things Poster" 
               className="popular-title-poster group-hover:scale-105 transition-transform duration-500" 
             />
